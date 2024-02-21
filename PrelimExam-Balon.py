@@ -1,0 +1,30 @@
+id = input("Enter your ID No.: ")
+name = input("Please Enter your name: ")
+course = input("Enter your Course: ")
+level = input("Enter your Year level: ")
+Acad = input("Enter Academic year: ")
+Sem = input("Enter Semester: ")
+date = input("Date: ")
+
+#computation
+unit = float(input("Enter no of units: "))
+result1 = unit * 700
+mis = input("Enter Miscellaneous Fee: ")
+lab = float(input("Laboratory hours: "))
+result2 = lab * 800
+fee = input("Other Fees: ")
+dis = float(input("Enter Discount: "))
+result3 = unit * 700 * .100
+print("------------------------------------------")
+print("Student ID No: " + (id))
+print("Student name: " + (name))
+print("Course: " + (course))
+print("Year Level: "+ (level))
+print("Academic Year: " + (Acad))
+print("Semester: " + (Sem))
+print("Date: " + (date))
+print("Tuition Fee: " + str(result1))
+print("Enter Miscellaneous Fee: " + (mis))
+print("Laboratory Fee: " + str(result2))
+print("Other Fees: " +(fee))
+print("Discount: " + str(result3))
